@@ -1,0 +1,109 @@
+.header {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__container {
+    margin-top: 5px;
+    display: flex;
+    width: 550px;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    align-items: center;
+  }
+  &__icon {
+    padding-left: 20px;
+    padding-right: 6.5px;
+  }
+  &__title {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #ffffff;
+  }
+}
+.form {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__container {
+    display: flex;
+    width: 550px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__input__container {
+    display: flex;
+    margin: 36px auto 15px;
+  }
+  &__input {
+    width: 230px;
+    height: 35px;
+    border: 1px solid #d5d4d8;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-left: 11px;
+  }
+  &__button {
+    width: 477px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 36px;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  &__meme__container {
+    background-color: #fff;
+    position: relative;
+    width: 550px;
+  }
+  &__meme {
+    width: 477px;
+    height: 268px;
+    object-fit: contain;
+    margin: 0 37px 55px;
+  }
+  &__text__one {
+    font-family: "Impact";
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    border: 2px solid #000000;
+    left: 200px;
+    top: 0px;
+    border: none;
+  }
+  &__text__two {
+    font-family: "Impact";
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    border: 2px solid #000000;
+    left: 150px;
+    top: 170px;
+    border: none;
+  }
+}

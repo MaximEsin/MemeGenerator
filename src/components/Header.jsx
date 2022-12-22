@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Components.module.scss";
+import styles from "../styles/Components.module.scss";
 import troll from "../img/TrollFace.svg";
 
 const Header = () => {
